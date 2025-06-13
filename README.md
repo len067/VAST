@@ -7,6 +7,8 @@ This consists of a set of plain text files formatted as "comma-separated-values"
  	* sources matched to catalogue [cat] cat_match_[cat]_[SB]_[fld].csv
  	* PSF variation over field as images --- psf.bma.SB[SB].[fld].fits, psf.bmi.SB[SB].[fld].fits, psf.bpa.SB[SB].[fld].fits
 
+NOTE epochs prior to epoch 75 have now been archived such that most csv files are now compressed into tarballs (tgz).
+
 ## Contents
 * [The database](#database)
 * [Data columns in field_data.csv](#field_data)
