@@ -1,0 +1,7 @@
+cat, file, freq, ident, ra, dec, tflux, flux, im_rms, ares_min, ares_max, snr_min, rad1, rad2, alpha
+THIS, , 0.8875, component_id, ra_deg_cont, dec_deg_cont, flux_int, flux_peak, rms_image, 0.8, 1.2, 10.0, 10.0, 90.0, -0.8
+RACS0, $SURVEY/db-inputs/RACS-25asec-Mosaiced_Gaussians_Final_GalCut_v2021_01_11-gt20mJy.csv, 0.8875, Component_ID, RA, Dec, Total_flux_Component, Peak_flux, Noise, , , , , ,
+NVSS, $SURVEY/db-inputs/VIII_65_nvss.dat_CH_2.fits, 1.4, NVSS, RA, Dec, S1.4,,,,,,,
+SUMSS, $SURVEY/db-inputs/sumsscat.Mar-11-2008_CLH.fits, 0.843, , RA, DEC, St,,,,,,,
+TGSS, $SURVEY/db-inputs/J_A+A_598_A78.fits, 0.150, TGSSADR, RAdeg, DEdeg, Stotal,,,,,,,
+ICRF, $SURVEY/db-inputs/icrf.csv, , IERS Des., RA, Dec, , ,,,,,,,
