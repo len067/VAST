@@ -28,13 +28,13 @@ $ git config --global user.email "your_name@some_email"
 2. Clone the database on your computer
 ```
 $ cd your-directory
-$ git clone ssh://git@bitbucket.csiro.au:7999/askap_surveys/vast.git
+$ git clone git clone https://github.com/len067/VAST.git
 ```
 Once finished you will find 
 ```
 .
 +-- your-directory/
-|  +-- vast/
+|  +-- VAST/
 |  |  +-- db/
 |  |  +-- db-inputs/
 |
@@ -42,7 +42,7 @@ Once finished you will find
 
 3. To be consistent with usage in this document which uses `$SURVEY` to refer to the database: 
 ```
-$ export SURVEY=your-directory/vast
+$ export SURVEY=your-directory/VAST
 ```
 
 
